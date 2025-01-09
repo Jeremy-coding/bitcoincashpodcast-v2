@@ -5,7 +5,7 @@ author: Jeremy
 author_title: Bitcoin Cash Podcast founder
 # author_url: https://github.com/wgao19
 author_image_url: /img/bch.png
-tags: [CHIPs, BCH]
+tags: [CHIPs, BCH, MonthlyDevBlog]
 ---
 
 A predictably quieter month. December is always going to be a slow month - both myself & the rest of the Podcast team slow things down particularly at the end of the month, have a break to reflect & spend some time with family. That's in general effect throughout BCH & the world at large - it's important to have a proper rest sometimes! Just a short update today.

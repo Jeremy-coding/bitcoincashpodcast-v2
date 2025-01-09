@@ -5,7 +5,7 @@ author: Jeremy
 author_title: Bitcoin Cash Podcast founder
 # author_url: https://github.com/wgao19
 author_image_url: /img/bch.png
-tags: [CHIPs, BCH]
+tags: [CHIPs, BCH, MonthlyDevBlog]
 ---
 
 import memeUrl from "@site/static/img/blog/devBlogs/november2024/meme.png";
