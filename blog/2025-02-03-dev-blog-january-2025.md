@@ -1,5 +1,5 @@
 ---
-slug: dev-blog-january-2024
+slug: dev-blog-january-2025
 title: Dev Blog January 2025
 author: Jeremy
 author_title: Bitcoin Cash Podcast founder
