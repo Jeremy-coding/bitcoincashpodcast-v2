@@ -10,6 +10,12 @@ No, but it has [CashTokens](/faqs/Tech/what-is-cashtokens) which is way better.
 
 Technically, Ordinals is just a way of counting satoshis & so is compatible with BCH, but the attached on-chain stored Inscriptions & tokens which made the protocol famous are not. The accidental discovery of a Taproot exploit allowing Inscriptions & BRC-20 tokens on BTC has created enormous confusion and controversy within its own community. The BCH community resisted the prerequisite implementation of SegWit (it was one of the contentious issues [in the Blocksize War](/start#episode-8-of-10-bitcoin-cash)) and split away at the same moment SegWit was integrated into BTC. BCH also does not have the Taproot ""upgrade"" added to BTC in 2021. These changes were rejected by the BCH community for their poor engineering choices, which in hindsight has proven very wise.
 
+:::info
+
+BCH, as with all blockchains, does have various ways of embedding data - such as using OP_Returns designed for that purpose, creating unspendable public keys or putting them into P2SH scripts as [pointed out by vostrnad](https://x.com/vostrnad/status/1918584634230649113). However, this is not what is typically meant by "Inscriptions" (which refers to exploiting the "Taproot envelope bug") & is not what is discussed here. Other data embedding schemes have typically not been as controversial as Inscriptions because they're somewhat inevitable in the course of running a blockchain - while Inscriptions is the result of an exploit plus [politically insufficient coordination](/faqs/BCH-vs-BTC/whats-wrong-with-bitcoin-btc) to remove them.
+
+:::
+
 Instead, the BCH community have deliberately developed a superior system called [CashTokens](/faqs/Tech/what-is-cashtokens) which covers much of the same market requirements (plus a LOT more!) without technical workarounds or community contention.
 
 For more about CashTokens, see [What is CashTokens?](/faqs/Tech/what-is-cashtokens).
