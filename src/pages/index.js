@@ -15,7 +15,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <CustomReactPlayer url={"https://www.youtube.com/watch?v=ixpuLmvNel4"} />
+        <CustomReactPlayer url={"https://www.youtube.com/watch?v=1sFp_RblEvY"} />
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/start">
             Start Here!
@@ -58,7 +58,7 @@ function HomepageHeader3() {
       <div className="container">
         <h1 className="hero__title">Bitcoin Cash is Bitcoin</h1>
         <p className="hero__subtitle">The vision of Satoshi Nakamoto</p>
-        <CustomReactPlayer url={"https://www.youtube.com/watch?v=EhRUqZt3-Yc"} />
+        <CustomReactPlayer url={"https://www.youtube.com/watch?v=ixpuLmvNel4"} />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
