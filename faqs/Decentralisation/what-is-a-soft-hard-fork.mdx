@@ -19,7 +19,7 @@ A hard fork is **NOT** a chain-split. This is a VERY common misconception (or pi
 
 New entrants to cryptocurrency are often confused & bamboozled by terminology around soft/hard forks. As a finnicky, technical topic specific to cryptocurrency it is very common for the exact nuances to be misunderstood. A large part of the confusion is that a third phenomon, called a "chain split" is often erroneously conflated with a hard fork. 
 
-It is essential to understand a chain split before clarifying soft vs hard forks.
+It is essential to understand a chain split before clarifying soft vs hard forks (and repository forks).
 
 ## Chain split
 
@@ -66,5 +66,15 @@ A soft-fork is **a backwards compatible upgrade to a cryptocurrency**. In other 
 A soft-fork can cause a chainsplit if a substantial portion of the network decided to actively fight back or preserve the original non-upgraded rules. There aren't any high profile examples of this though, because The Blocksize War divided people into the SegWit soft-fork BTC & the 8 MB Bitcoin Cash big block hard-fork, with trivial to non-existent support for a 1 MB non-SegWit alternative. However it is possible to chainsplit against a softfork, for instance by checkpointing a block conforming only to the existing rules that the majority of miners (who had implemented the softfork) had rejected. Here is a [Twitter thread discussing this scenario](https://twitter.com/TheBCHPodcast/status/1697270378140225988) with Luke DashJr, the original inventor of the SegWit soft fork.
 
 Just as with hard-forks, the BTC community largely have [propaganda](/faqs/BCH-vs-BTC/why-is-there-so-much-propaganda-in-btc) around this version of forks. They believe that soft-forks are superior (as unupgraded nodes will default to the same network as the upgraded nodes) because they claim it is "non-coercive" (i.e. no upgrade is required of existing nodes to stay on the network). This ignores the fact that a soft-fork can actually be MORE coercive, by bringing along existing nodes to an upgrade they were unaware of (for instance, the [substantial change made by SegWit](/faqs/BCH-vs-BTC/is-bch-the-real-bitcoin#segwit)). With a hard-fork, not only is it easier to perform a technically clean upgrade but also nodes that are inactive will "protest"/reject the change by default. In contrast, for a soft-fork inactive users will comply by default which seems like an odd default to support if you're concerned about coercing users.
+
+## Software (Repository) forks
+
+Confusingly, there is ONE other kind of fork. A "software fork" is when open source software, such as a Bitcoin node client, is copied in its entirety so that a new group of authors can change, update, maintain or preserve a copy of that software independent of the original owners. This is a natural & very common part of open source software development. Read more [about it here](https://en.wikipedia.org/wiki/Fork_(software_development)).
+
+A software fork of a Bitcoin client *can* lead to a soft fork or hard fork or a chainsplit (if the software forkers are intent on making consensus changes) - but it does not have to. Software forks may be done to change the user UI, translate the software to a new language or some other minor (non-consensus changing) reason. For instance, Bitcoin Knots is a software fork of the Bitcoin Core software on BTC, but as of June 2025 is only maintained for the purposes of allowing some user configuration of mempools.
+
+It is also not required to have a software fork in order to have a soft fork or hard fork or chain split. Any of these can occur independently, e.g. a planned soft/hard fork may be coordinated by a dominant node client or an unplanned chainsplit by a node client bug (or the 1 or 2 block orphans that occur naturally as part of the random mining process). That said, software forks often overlap with persistent chain splits, because the dissenting minority prepared to fight for the coin will not want to start from scratch but instead form a new team of existing & new developers prepared to take the existing popular node client (or clients) software in a new direction. This is what happened with the BCH & BTC split.
+
+A software fork is also often used for "altcoins". For instance, Litecoin was software forked from the Bitcoin client - but modified to start a fresh blockchain with slightly different properties instead of connecting to or splitting the existing Bitcoin blockchain. The Litecoin client thus shares some technical ancestry with the Bitcoin Core client, despite the blockchains themselves having no shared history (as BCH & BTC do).
 
 See also: [Why is there so much propaganda in BTC?](/faqs/BCH-vs-BTC/why-is-there-so-much-propaganda-in-btc)
