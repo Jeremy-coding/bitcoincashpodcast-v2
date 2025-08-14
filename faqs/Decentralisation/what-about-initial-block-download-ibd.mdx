@@ -1,0 +1,27 @@
+---
+id: what-about-initial-block-download-ibd
+sidebar_position: 7
+title: What about Initial Block Download (IBD)?
+---
+
+Many people, once they [hear about Bitcoin's big block scaling strategy](/faqs/Global-Reserve-Currency/can-BCH-technically-scale-to-global-reserve-currency), become concerned about the need to run nodes and preserve its decentralisation. If the blockchain size grows continually (& potentially exponentially), won't it become potentially impossible to synchronise new nodes (to replace or augment the existing set) - thus eventually centralising the system? This particular concern - the time & difficulty required to synchronise a new node from other existing nodes already running on the network - is called Initial Block Download (IBD).
+
+Of course, [nodes are important for decentralisation](/faqs/Decentralisation/is-bitcoin-cash-decentralised#node-count), although [bigger blocks do not need to reduce the amount of nodes](/faqs/Decentralisation/do-bigger-blocks-centralise-nodes). Initial block download is something the BCH community must keep in mind, but fortunately it is not as simple as "bigger blocks = terrible or infeasible IBD". There are a variety of technologies & mitigating factors which allow for a bigger blocksize without sacrificing the feasibility of IBD.
+
+# UTXO Commitments
+
+The primary technology ~ is called "UTXO Commitments". By embedding a hash of the UTXO set at a given blockheight inside the coinbase of a block, miners can vouch with their proof of work . This proof accumulates over time, as with security of transactions, confirmation by confirmation.
+
+UTXO Commitment concepts have been discussed since the early 2010s, but interest and development died down because of [the Blocksize War](/start#episode-8-of-10-bitcoin-cash). The small block side limited their blocks to small throughput thus abrogating any need to improve their scalability ([at great cost](/faqs/BCH-vs-BTC/whats-wrong-with-bitcoin-btc)), and the big block side ~. Nevertheless, UTXO Commitments has remained in the minds of the BCH community, and as of mid-2025 is being [actively researched](https://bitcoincashresearch.org/t/chip-2021-07-utxo-fastsync/502/87) and [discussed](https://read.cash/@GeneralProtocols/gps-view-on-the-current-chip-landscape-9732dd18#utxo-commitment).
+
+# Software improvements
+
+The BCH community has been able to massively speed up UTXO set management (among other things) by improving the node software, for instance with the [UTXO-Z initiative](https://bitcoincashresearch.org/t/utxo-z-release/1658). As with UTXO commitments, this is an ongoing effort in both research & implementation which multiplies with the improvements offered by UTXO Commitments, better hardware, better node pruning etc.
+
+This can be particularly confusing for BTC adopters, as the [hijacked](/faqs/Media/what-about-roger-vers-book-hijacking-bitcoin) status of the Bitcoin Core development team or the [surrounding propaganda](/faqs/BCH-vs-BTC/why-is-there-so-much-propaganda-in-btc) has taught them (incorrectly) that they have world-leading experts producing world-leading software which is duly optimised as well as can be. None of that is true. Superior node development teams & implementations is just one of the many things [BCH already has that BTC wants](/faqs/BCH-vs-BTC/why-does-btc-already-have-what-btc-wants).
+
+# Hardware improvements & Pruned Nodes
+
+As with every part of the big block scaling startegy, [hardware improvements](/faqs/Global-Reserve-Currency/can-BCH-technically-scale-to-global-reserve-currency#scaling-pillar-2-hardware-innovation) and [pruned nodes](/faqs/Global-Reserve-Currency/can-BCH-technically-scale-to-global-reserve-currency#scaling-pillar-3-pruned-nodes) do a lot to mitigate the impact of increasing blockchain traffic on initial block download.
+
+See also: [Why is there so much propaganda in BTC?](/faqs/BCH-vs-BTC/why-is-there-so-much-propaganda-in-btc)
