@@ -2,10 +2,7 @@
 slug: chip-endorsement-may-2023
 title: CHIP Endorsement May 2023
 author: Jeremy
-author_title: Bitcoin Cash Podcast founder
-# author_url: https://github.com/wgao19
-author_image_url: /img/bch.png
-tags: [CHIPs, BCH]
+# tags: [CHIPs, BCH]
 ---
 
 The Bitcoin Cash Podcast wholeheartedly supports the November lock-in and May implementation of:
@@ -30,6 +27,10 @@ Much gratitude to CHIP authors bitcoincashautist, Jason Dreyzehner, Tom Zander a
 To a smooth May 2023 upgrade!
 
 Jeremy
+
+
+
+<!-- truncate -->
 
 ## Further reading:
 

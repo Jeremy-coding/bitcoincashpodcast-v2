@@ -2,13 +2,14 @@
 slug: dev-blog-january-2025
 title: Dev Blog January 2025
 author: Jeremy
-author_title: Bitcoin Cash Podcast founder
-# author_url: https://github.com/wgao19
-author_image_url: /img/bch.png
-tags: [CHIPs, BCH, MonthlyDevBlog]
+# tags: [CHIPs, BCH, MonthlyDevBlog]
 ---
 
 A medium-speed start to the year.  I suffered a few days of illness that delayed early momentum, but by the end of the month things have been getting moving again at increasing speed. The BLISS ticket sale opening is the biggest milestone & February will be far more focussed on keeping up the promotion efforts. Buy a ticket, help us sell out & come have a great Bitcoin powered holiday in Slovenia in May!!
+
+
+
+<!-- truncate -->
 
 # Podcast
 

@@ -2,10 +2,7 @@
 slug: dev-blog-november-2024
 title: Dev Blog November 2024
 author: Jeremy
-author_title: Bitcoin Cash Podcast founder
-# author_url: https://github.com/wgao19
-author_image_url: /img/bch.png
-tags: [CHIPs, BCH, MonthlyDevBlog]
+# tags: [CHIPs, BCH, MonthlyDevBlog]
 ---
 
 import memeUrl from "@site/static/img/blog/devBlogs/november2024/meme.png";
@@ -13,6 +10,10 @@ import memeUrl from "@site/static/img/blog/devBlogs/november2024/meme.png";
 I've been super inspired by the great monthly dev blog of A Fifth Of Gaming https://www.reddit.com/r/afog/ as a method for distributing news on the project & performing some public accountability, so I'm starting to also write a quick monthly summary of what I've been involved in.
 
 This will help me stay on track as well as serve as a bit of a news bulletin & reminder for anything my audience might have missed the first time around.
+
+
+<!-- truncate -->
+
 ## BCH Podcast
 - Released episode 133 & filmed & released episodes 134 & 135.  All available on Youtube: https://www.youtube.com/@BitcoinCashPodcast/videos
 - Wrote my first monthly accountability post, you're reading it!

@@ -2,10 +2,7 @@
 slug: bchf-endorsement
 title: BCHF Endorsement
 author: Jeremy
-author_title: Bitcoin Cash Podcast founder
-# author_url: https://github.com/wgao19
-author_image_url: /img/bch.png
-tags: [BCH]
+# tags: [BCH]
 ---
 
 import BCHFHeart from "@site/static/img/faqs/BCHFHeart.png";
@@ -25,6 +22,10 @@ As part of this endorsement, a new Podcast FAQ article has been added [explainin
 Thank you for your work Bitcoin Cash Foundation & we look forward to our continuing collaboration in the future!
 
 Jeremy
+
+
+
+<!-- truncate -->
 
 ## Further reading:
 

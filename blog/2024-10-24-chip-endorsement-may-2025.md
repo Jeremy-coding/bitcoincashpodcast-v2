@@ -2,10 +2,7 @@
 slug: chip-endorsement-may-2025
 title: CHIP Endorsement May 2025
 author: Jeremy
-author_title: Bitcoin Cash Podcast founder
-# author_url: https://github.com/wgao19
-author_image_url: /img/bch.png
-tags: [CHIPs, BCH]
+# tags: [CHIPs, BCH]
 ---
 
 The Bitcoin Cash Podcast is adding its support & approval for `CHIP-2021-05 VM Limits: Targeted Virtual Machine Limits` & `CHIP-2024-07 BigInt: High-Precision Arithmetic`, to lock in November 15 2024 & go live May 15 2025.
@@ -33,6 +30,10 @@ I look forward to the activation of both CHIPs on chipnet next month & the flow 
 Final note: The [ABLA Explainer video](https://www.youtube.com/watch?v=YkkzIjZQNH0) from last year received an incredibly positive community response. Building on that success, I will also be working with Jason & others to produce promotional/educational material for the BCH community and broader visibility around the importance & impact of these 2025 upgrades. If anyone has any particular suggestions or ideas in this regard, I'm always open to discuss it.
 
 Jeremy
+
+
+
+<!-- truncate -->
 
 ## Further reading:
 
