@@ -1,5 +1,3 @@
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 require("dotenv").config();
 
 const bchAddress = "qr64nrjy93d867h20jw0yygp00k8gylf05hp0vuhlx";
@@ -208,8 +206,8 @@ module.exports = {
       copyright: `Donations - bitcoincash:${bchAddress}`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: require('prism-react-renderer').themes.github,
+      darkTheme: require('prism-react-renderer').themes.dracula,
     },
     //   algolia: {
     //     // If Algolia did not provide you any appId, use 'BH4D9OD16A'
@@ -243,14 +241,14 @@ module.exports = {
         },
         gtag: {
           // You can also use your "G-" Measurement ID here.
-          // trackingID: "x", // For local dev purposes
-          trackingID: process.env.GOOGLE_ANALYTICS_ID,
+          trackingID: "x", // For local dev purposes
+          // trackingID: process.env.GOOGLE_ANALYTICS_ID,
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
         googleAnalytics: {
-          // trackingID: "x", // For local dev purposes
-          trackingID: process.env.GOOGLE_ANALYTICS_ID,
+          trackingID: "x", // For local dev purposes
+          // trackingID: process.env.GOOGLE_ANALYTICS_ID,
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
