@@ -8,7 +8,7 @@ Many people, once they [hear about Bitcoin's big block scaling strategy](/faqs/G
 
 Of course, [nodes are important for decentralisation](/faqs/Decentralisation/is-bitcoin-cash-decentralised#node-count), although [bigger blocks do not need to reduce the amount of nodes](/faqs/Decentralisation/do-bigger-blocks-centralise-nodes). Initial block download is something the BCH community must keep in mind, but fortunately it is not as simple as "bigger blocks = terrible or infeasible IBD". There are a variety of technologies & mitigating factors which allow for a bigger blocksize without sacrificing the feasibility of IBD.
 
-# UTXO Commitments
+## UTXO Commitments
 
 The primary technology for improving IBD is called "UTXO Commitments". By embedding a hash of the UTXO set at a given blockheight inside the coinbase of a block, miners can vouch with their proof of work for a specific set of UTXOs that were unspent at that block. This proof accumulates over time, as with security of transactions, confirmation by confirmation. In this way, new nodes could spin up from "checkpoints" in the blockchain and perform background validation of the past data while already live & serving the network. 
 
