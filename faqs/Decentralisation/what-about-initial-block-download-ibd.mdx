@@ -4,6 +4,12 @@ sidebar_position: 7
 title: What about Initial Block Download (IBD)?
 ---
 
+import CustomReactPlayer from "../../src/components/CustomReactPlayer";
+
+<CustomReactPlayer url={"https://youtu.be/wpDrs5yRWLk"} />
+
+_Calin explains at [BLISS](/faqs/Events/BLISS) how UTXO Commitments can fix initial block download concerns even with very large block scaling._
+
 Many people, once they [hear about Bitcoin's big block scaling strategy](/faqs/Global-Reserve-Currency/can-BCH-technically-scale-to-global-reserve-currency), become concerned about the need to run nodes and preserve its decentralisation. If the blockchain size grows continually (& potentially exponentially), won't it become potentially impossible to synchronise new nodes (to replace or augment the existing set) - thus eventually centralising the system? This particular concern - the time & difficulty required to synchronise a new node from other existing nodes already running on the network - is called Initial Block Download (IBD).
 
 Of course, [nodes are important for decentralisation](/faqs/Decentralisation/is-bitcoin-cash-decentralised#node-count), although [bigger blocks do not need to reduce the amount of nodes](/faqs/Decentralisation/do-bigger-blocks-centralise-nodes). Initial block download is something the BCH community must keep in mind, but fortunately it is not as simple as "bigger blocks = terrible or infeasible IBD". There are a variety of technologies & mitigating factors which allow for a bigger blocksize without sacrificing the feasibility of IBD.
