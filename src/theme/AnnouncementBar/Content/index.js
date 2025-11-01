@@ -39,11 +39,6 @@ export default function AnnouncementBarContent() {
         </a>
       </span>
       <span style={spanStyle}>
-        <a href="https://www.instagram.com/thebchpodcast/" target="_blank">
-          <img src={instagramLogo} height={40} width={40} alt="Instagram link" />
-        </a>
-      </span>
-      <span style={spanStyle}>
         <a href="https://www.tiktok.com/@thebchpodcast" target="_blank">
           <img src={tiktokLogo} height={40} width={40} alt="TikTok link" />
         </a>
