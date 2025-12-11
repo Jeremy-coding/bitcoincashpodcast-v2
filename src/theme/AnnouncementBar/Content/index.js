@@ -38,16 +38,16 @@ export default function AnnouncementBarContent() {
           <img src={twitchLogo} height={40} width={40} alt="Twitch link" />
         </a>
       </span>
-      <span style={spanStyle}>
+      {/* <span style={spanStyle}>
         <a href="https://www.tiktok.com/@thebchpodcast" target="_blank">
           <img src={tiktokLogo} height={40} width={40} alt="TikTok link" />
         </a>
-      </span>
-      <span style={spanStyle}>
+      </span> */}
+      {/* <span style={spanStyle}>
         <a href="https://www.reddit.com/r/BitcoinCashPodcast/" target="_blank">
           <img src={redditLogo} height={40} width={40} alt="Reddit link" />
         </a>
-      </span>
+      </span> */}
       <span style={spanStyle}>
         <a href="https://open.spotify.com/show/01N17Oi7sRZM4vYGiTO6uk" target="_blank">
           <img src={spotifyLogo} height={40} width={40} alt="Spotify link" />
