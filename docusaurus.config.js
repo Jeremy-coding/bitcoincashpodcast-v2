@@ -230,11 +230,11 @@ module.exports = {
           path: "episodes",
           routeBasePath: "episodes",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/JeremyEllingham/bitcoincashpodcast-v2",
+          editUrl: "https://github.com/Jeremy-coding/bitcoincashpodcast-v2",
         },
         blog: {
           showReadingTime: true,
-          editUrl: "https://github.com/JeremyEllingham/bitcoincashpodcast-v2",
+          editUrl: "https://github.com/Jeremy-coding/bitcoincashpodcast-v2",
           onInlineAuthors: 'ignore',
         },
         theme: {
