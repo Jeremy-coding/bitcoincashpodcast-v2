@@ -6,23 +6,33 @@ title: What about quantum computing? Are my BCH safe?
 
 import CustomReactPlayer from "../../src/components/CustomReactPlayer";
 
+import NotFromASmallBlockerUrl from "@site/static/img/faqs/NotFromASmallBlocker.jpg";
+
+<img src={NotFromASmallBlockerUrl} alt="Quantum BCH meme" />
+
+_As of early 2026, the BCH community is rolling out quantum solutions while the BTC community stay trapped in vulnerability due to their [lack of upgrades](/faqs/BCH-vs-BTC/whats-wrong-with-bitcoin-btc) and [propaganda](/faqs/BCH-vs-BTC/why-is-there-so-much-propaganda-in-btc)._
+
+Quantum computing has not developed enough to be a short term (2026 or earlier) threat to Bitcoin. In the medium term (2027 - 2035), it will become a non-trivial but manageable issue (at least for the BCH community). 
+
+## BCH Quantum preparation
+
+Upgrading with defences against quantum computing are currently underway in the BCH community. Protcol upgrades such as [CashTokens](/faqs/Tech/what-is-cashtokens), [Velma](/faqs/Tech/Protocol-Upgrades/2025-velma) & [Layla](/) have improved BCH scripting to the point that quantum-secure transaction protections can be implemented.
+
+As of May 2025, Jason Dreyzehner had [released a production ready quantum resistant vault for BCH](https://blog.bitjson.com/quantumroot/?x=1), with increases in efficiency active after the May 2026 Layla upgrade. Integration into wallet tooling is expected also by May 2026, with rollout to wallets to follow. The BCH community can then begin migrating active and cold storage coins to quantum safety ahead of any quantum computer attacks.
+
+Other quantum solutions have also been prototyped on BCH, for instance [Lamport signatures](https://dorahacks.io/buidl/36826) by [moonsettler](https://x.com/4moonsettler) as part of the [BCH Blaze](https://bchblaze.cash) hackathon.
+
+There is of course further research and discussion [ongoing here](https://bitcoincashresearch.org/t/post-quantum-crypto/845) by the Bitcoin Cash community.
+
+## BTC Quantum vulnerability
+
+Quantum secure solutions is one of the many things [BCH has that BTC wants (but can't get)](/faqs/BCH-vs-BTC/why-does-btc-already-have-what-btc-wants). Unlike the BCH community, the BTC community do not have access to the necessary protocol upgrades to build quantum-resilient wallets. This is of course the result of the [Hijacking](/faqs/Media/what-about-roger-vers-book-hijacking-bitcoin) and [propaganda](/faqs/BCH-vs-BTC/why-is-there-so-much-propaganda-in-btc) endemic in their development ecosystem.
+
+If anything, they've actually made the problem worse for themselves. Taproot addreses (an ""upgrade"" which BCH does not have), are [extra-vulnerable to quantum computing](https://blog.bitjson.com/quantumroot/#can-an-upgrade-make-btcs-taproot-quantum-secure). Such is the result of an incompetent dev community.
+
+Even if the BTC community do come up with some unlikely solution to their predicament (and whether or not they can coordinate to implement it, which is also doubtful), BCH is perfectly poised to benefit. Similar to the question of [hashrate](/faqs/BCH-vs-BTC/is-low-hashrate-a-problem), BCH has a giant advantage over most other cryptocurrencies by virtue of its sibling ancestry with Bitcoin "Core" BTC. Any research or solutions emerging in the BTC community will of-necessity be open-sourced & so can be easily replicated or improved on by the BCH community.
+
 <CustomReactPlayer url={"https://www.youtube.com/watch?v=kU0a16FO9Kc"} />
-
-:::tip
-
-As of May 2025, Jason Dreyzehner has [released an early dev version of quantum resistant vaults for BCH](https://blog.bitjson.com/quantumroot/?x=1), already possible to deploy & with significant increases in efficiency/cost after the 2026 upgrade.
-
-There has also been [this Bitcoin quantum report from Chaincode Labs](https://chaincode.com/bitcoin-post-quantum.pdf).
-
-:::
-
-Quantum computing has not developed enough to be a short term (until 2026) threat to Bitcoin. In the medium term (2027 - 2035), it will become a non-trivial but manageable issue. Upgrading with defences against quantum computing is [under active investigation](https://bitcoincashresearch.org/t/post-quantum-crypto/845) by the Bitcoin Cash community.
-
-:::info
-
-Similar to the question of [hashrate](/faqs/BCH-vs-BTC/is-low-hashrate-a-problem), BCH has a giant advantage over most other cryptocurrencies by virtue of its sibling ancestry with Bitcoin BTC. Regarding quantum attacks, BCH benefits from the necessity for the BTC community to protect their network against the same threat. Any research or solutions emerging in the BTC community will of-necessity be open-sourced & so can be easily replicated or improved on by the BCH community.
-
-:::
 
 # Address Reuse
 
@@ -37,3 +47,7 @@ In fact, the researchers found that ASICs (which do not [centralise the network]
 
 > 3.1. Attacks on the Bitcoin Proof-of-Work—In this section, we investigate the advantage a quantum computer would have in performing the hashcash PoW used by Bitcoin. Our findings can be summarized as follows: Using Grover search,8 a quantum computer can perform the hashcash PoW by performing quadratically fewer hashes than is needed by a classical computer. However, the extreme speed of current specialized ASIC hardware for performing the hashcash PoW, coupled with much slower projected gate speeds for current quantum architectures, essentially
 > negates this quadratic speedup, at the current difficulty level, giving quantum computers no advantage. Future improvements to quantum technology allowing gate speeds up to 100GHz could allow quantum computers to solve the PoW about 100 times faster than current technology. However, such a development is unlikely in the next decade, at which point classical hardware may be much faster, and quantum technology might be so widespread that no single quantum enabled agent could dominate the PoW problem.
+
+# Other good Quantum resources
+
+[Bitcoin quantum report from Chaincode Labs](https://chaincode.com/bitcoin-post-quantum.pdf).
