@@ -12,19 +12,60 @@ import NotFromASmallBlockerUrl from "@site/static/img/faqs/NotFromASmallBlocker.
 
 _As of early 2026, the BCH community is rolling out quantum solutions while the BTC community stay trapped in vulnerability due to their [lack of upgrades](/faqs/BCH-vs-BTC/whats-wrong-with-bitcoin-btc) and [propaganda](/faqs/BCH-vs-BTC/why-is-there-so-much-propaganda-in-btc)._
 
-Quantum computing has not developed enough to be a short term (2026 or earlier) threat to Bitcoin. In the medium term (2027 - 2035), it will become a non-trivial but manageable issue (at least for the BCH community). 
+Quantum computing has not developed enough to be a short term (2026 or earlier) threat to Bitcoin. In the medium term (2027 - 2035), it may become a non-trivial but manageable issue (at least for the BCH community). 
+
+## Quantum background
+
+As of April 2026, there is significant interest (and in some cases, panic) about the prospect of quantum computing arriving. Are quantum computers real? When are they coming? Will this compromise my BCH? What solutions are available?
+
+Quantum computing is a complicated topic, but the basic facts of the situation are very simple:
+
+1. There is no need to panic.
+2. As of April 2026, quantum computers are a mostly theoretical possibility. Skeptics claim they may never materialise to a viable threat - and if the skeptics are correct then no action is needed (and nor is any emotional equilibrating in the meantime).
+3. The skeptics may be wrong. Large amounts of capital are being allocated to quantum development & research, including by nation states and very credible technology companies. The widespread use of AI LLMs may also assist in accelerating development of quantum technology or breakthroughs.
+4. Nobody can predict when or if a sudden breakthrough will make the first (or several) quantum computers immediately viable. Estimates range from 2 to 20 years, but the truth is that nobody knows. Failing to prepare is clearly preparing to fail, so betting entirely on skeptics being correct is foolish.
+5. Quantum readiness by banks, governments or other institutions is orthogal to the conversation in BCH. Centralised entities can upgrade their technology far more abruptly and cohesively than decentralised systems which need time to debate and coordinate that centralised entities do not.
+
+With these facts in mind, the BCH community is taking a pragmatic approach to be the best prepared it can, without falling into panicked irrational alarmism that an unresolvable and existential threat is imminent.
 
 ## BCH Quantum preparation
 
-Upgrading with defences against quantum computing are currently underway in the BCH community. Protcol upgrades such as [CashTokens](/faqs/Tech/what-is-cashtokens), [Velma](/faqs/Tech/Protocol-Upgrades/2025-velma) & [Layla](/faqs/Tech/Protocol-Upgrades/2026-layla) have improved BCH scripting to the point that quantum-secure transaction protections can be implemented.
+Upgrading with defences against quantum computing is currently underway in the BCH community. Protcol upgrades such as [CashTokens](/faqs/Tech/what-is-cashtokens), [Velma](/faqs/Tech/Protocol-Upgrades/2025-velma) & [Layla](/faqs/Tech/Protocol-Upgrades/2026-layla) have improved BCH scripting to the point that quantum-secure transaction protections can be implemented.
 
-As of May 2025, Jason Dreyzehner has [released a production ready quantum resistant vault for BCH](https://blog.bitjson.com/quantumroot/?x=1), with increases in efficiency active after the [May 2026 Layla](/faqs/Tech/Protocol-Upgrades/2026-layla) upgrade. Integration into wallet tooling is expected also by May 2026, with rollout to wallets to follow. The BCH community can then begin migrating active and cold storage coins to quantum safety ahead of any quantum computer attacks.
+As of May 2025, Jason Dreyzehner has [released a production ready quantum resistant vault for BCH](https://blog.bitjson.com/quantumroot/?x=1), with increases in efficiency active after the [May 2026 Layla](/faqs/Tech/Protocol-Upgrades/2026-layla) upgrade. Integration into wallet tooling is expected also by May 2026, with rollout to wallets to follow. Wallet adoption will proceed according to the perceived concern around the issue, with a faster rollout if concern is high and slower if not. For example, [Selene Wallet](https://x.com/SeleneWallet/status/2039075250395127943) is confident in having a quantum mitigation strategy available by the end of 2026 if required. Other wallets & BCH infrastructure will likewise adopt solutions as necessity rises. The BCH community can then begin migrating active and cold storage coins to quantum  safety ahead of any quantum computer attacks. Uptake of these solutions (visible in on-chain analysis) will give some indication of the community's preparation & levels of concern about quantum threats.
+
+<CustomReactPlayer url={"https://www.youtube.com/watch?v=fUiNCoXGGT0?t=3385"} />
+
+_Jason Dreyzehner speaks about Quantumroot on The BCH Podcast in September 2025._
 
 Other quantum solutions have also been prototyped on BCH, for instance [Lamport signatures](https://dorahacks.io/buidl/36826) by [moonsettler](https://x.com/4moonsettler) as part of the [BCH Blaze](https://bchblaze.cash) hackathon.
 
 There is of course further research and discussion [ongoing here](https://bitcoincashresearch.org/t/post-quantum-crypto/845) by the Bitcoin Cash community.
 
 Users should rest easy the problem is being addressed with known pragmatic solutions, but maintain an eye on BCH media in case a migration of coins to quantum secure technology becomes necessary or available.
+
+## What about Satoshi's coins?
+
+There are around 1 million vulnerable P2PK (Pay to Public Key) coins sitting on the blockchain that are presumed to be owned by Satoshi Nakamoto and unmoved since 2011. A further 700 00 early coins (perhaps belonging to Satoshi or other early adopters) are in the same situation. Even more coins (potentially in the low millions) are in less-but-still-vulnerable P2PKH (Pay to Public Key Hash) addresses that may have been lost over time by their owners including in various chain splits or deliberately burnt.
+
+If nothing changes except for the invention of quantum computers, then Satoshi's coins (and other lost/burnt/unmigrated coins) form a "quantum bounty" for the first quantum computers to break and steal. Coins that are broken and moved may re-enter the circulating supply (stolen from the original owner, and potentially depressing the market price in the short run) but have no other ill-effects.
+
+### Debate over proactive mitigation of coin recirculation
+
+For some people, market impact is a very significant concern. This concern is often amplified with emotive reasoning about the "immorality of theft". However, meddling with this situation is precarious.
+
+For one thing, it is not possible to truly assess a quantum theft. Perhaps Satoshi is waiting for the arrival of quantum computers to be able to plausibly reclaim his coins without compromising his anonymity. In such a scenario, there is no way to distinguish the movement of the coins by quantum compromise from a movement made by Satoshi himself. The same is true for all other unmoved coins.
+
+For another, nobody can truly say that Satoshi's coins (or other unmoved coins) are definitively lost. The owners may INTEND to leave them as a bounty for quantum computers (perhaps as a "canary in the coal mine" to move other parts of their coin stash, or as an incentive to drive technological development). Why would it be the right of the BCH community to override this decision by a coin owner?
+
+Some BCH community members believe that more aggressive proactive steps should be taken to mitigate the risk of a sudden quantum break. Cryptographic protocols get broken over time generally, and so it's important to have a mitigation/migration strategy whether quantum computers are the cause of nonviable cryptography or not. Ideas include a rate-limit on the amount of quantum coins that can be moved per unit time or an automatic trigger on proof of quantum viability (or announced date) to burn quantum vulnerable coins. These proposals may be able to mitigate concerns around a large market sell-off from bad actors, but the cure is possibly worse than the disease if it means compromising BCH's promise to sovereign monetary ownership (not your keys, not your coins). As of April 2026, no serious proposal has been made regarding any such quantum mitigation strategy.
+
+These proposals can and should be thoroughly discussed by the BCH community, dismissing them is not a way to build confidence with concerned parties. However, the [CHIP process](/faqs/Decentralisation/how-does-BCH-governance-work) is very clear - **unless and until someone has a specific, viable proposal to debate on its merits the status quo (unmigrated coins are a public quantum bounty) will prevail**.
+
+Note also the following existing mitigations:
+
+- **Low priority target**: The BCH marketcap is far smaller than the BTC marketcap, therefore early quantum computers are more likely to target lucrative BTC breaks instead of BCH (and only target BTC itself after exhausting important national security targets). Therefore BCH is likely in the "third layer" of logical targets for the first quantum computers.
+- **Gradual & survivable sell-off**: The "market dump" of even millions of BCH (in the worst case), while painful, is not likely and not likely existential. Quantum compromise is very unlikely to occur across all vulnerable coins at one instant. The earliest computers will take time to crack keys, thus taking significant time to work through a backlog - and risking a competitor grabbing the coins in a "build up a large sweep" strategy. BCH has [also survived (very painfully, but survived)](/faqs/BCH-vs-BTC/if-bch-is-so-great-why-is-the-price-low) the market dump of millions of coins in previous chain splits (most notably with BTC).
 
 ## BTC Quantum vulnerability
 
@@ -38,7 +79,7 @@ Even if the BTC community do come up with some unlikely solution to their predic
 
 # Address Reuse
 
-Best practice is to use a fresh Bitcoin address for each transaction. Not only is this beneficial for increasing [privacy](/faqs/BCH/what-about-privacy-on-BCH) of the entire chain, but it also protects unspent coins against quantum attack.
+Best practice is to use a fresh Bitcoin address for each transaction. Not only is this beneficial for increasing [privacy](/faqs/BCH/what-about-privacy-on-BCH) of the entire chain, but it also protects unspent coins against immediate quantum attack (fresh addresses are P2PKH where the H is a hash protecting the coins, reused addresses already have a known public key which are lower hanging fruit for quantum attack).
 
 # Mining
 
