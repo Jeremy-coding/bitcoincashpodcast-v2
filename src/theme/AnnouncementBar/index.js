@@ -14,11 +14,10 @@ export default function AnnouncementBar() {
     return null;
   }
 
-  const {backgroundColor, textColor, isCloseable} = announcementBar;
+  const {isCloseable} = announcementBar;
   return (
     <div
       className={styles.announcementBar}
-      style={{backgroundColor, color: textColor}}
       role="banner">
       {isCloseable && <div className={styles.announcementBarPlaceholder} />}
       <AnnouncementBarContent className={styles.announcementBarContent} />
