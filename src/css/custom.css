@@ -27,3 +27,16 @@
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* Announcement bar: X icon — black on light bar, white on dark bar */
+.announcement-bar-x-icon--dark {
+  display: none;
+}
+
+html[data-theme="dark"] .announcement-bar-x-icon--light {
+  display: none;
+}
+
+html[data-theme="dark"] .announcement-bar-x-icon--dark {
+  display: inline;
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import youtubeLogo from "@site/static/img/socialMedia/youtube.png";
-import twitterLogo from "@site/static/img/socialMedia/twitter.png";
 import telegramLogo from "@site/static/img/socialMedia/telegram.png";
 import instagramLogo from "@site/static/img/socialMedia/instagram.png";
 import redditLogo from "@site/static/img/socialMedia/reddit.png";
@@ -26,7 +25,23 @@ export default function AnnouncementBarContent() {
       </span>
       <span style={spanStyle}>
         <a href="https://twitter.com/TheBCHPodcast" target="_blank">
-          <img src={twitterLogo} height={40} width={40} alt="Twitter link" style={imgStyle} />
+          <img
+            className="announcement-bar-x-icon--light"
+            src="/img/socialMedia/x.svg"
+            height={40}
+            width={40}
+            alt="X (Twitter) link"
+            style={imgStyle}
+          />
+          <img
+            className="announcement-bar-x-icon--dark"
+            src="/img/socialMedia/x-dark.svg"
+            height={40}
+            width={40}
+            alt=""
+            aria-hidden="true"
+            style={imgStyle}
+          />
         </a>
       </span>
       <span style={spanStyle}>

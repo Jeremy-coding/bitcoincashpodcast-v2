@@ -151,7 +151,7 @@ module.exports = {
               href: "https://www.youtube.com/channel/UC22kOwMuIzJCOtAPjoIjkFA",
             },
             {
-              label: "Twitter",
+              label: "X (Twitter)",
               href: "https://twitter.com/TheBCHPodcast",
             },
             {
