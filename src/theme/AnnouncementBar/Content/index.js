@@ -35,6 +35,11 @@ export default function AnnouncementBarContent() {
         </a>
       </span>
       <span style={spanStyle}>
+        <a href="https://discord.gg/9wPcWkhawg" target="_blank">
+          <img src="/img/socialMedia/discord.svg" height={40} width={40} alt="Discord link" style={imgStyle} />
+        </a>
+      </span>
+      <span style={spanStyle}>
         <a href="https://www.twitch.tv/thebitcoincashpodcast" target="_blank">
           <img src={twitchLogo} height={40} width={40} alt="Twitch link" style={imgStyle} />
         </a>
