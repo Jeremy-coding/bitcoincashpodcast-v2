@@ -39,7 +39,7 @@ module.exports = {
           label: "Episodes",
         },
         { to: "/faqs", label: "FAQs", position: "left" },
-        { to: "https://thebchbullet.substack.com/", label: "News", position: "left" },
+        { to: "https://thebchbullet.substack.com/", label: "Newsletter", position: "left" },
         { to: "/recommended", label: "Recommended", position: "left" },
         { to: "/code", label: "Code", position: "left" },
         { to: "/music", label: "Music", position: "left" },
@@ -143,6 +143,10 @@ module.exports = {
           title: "Follow",
           items: [
             {
+              label: "Substack (The BCH Bullet)",
+              href: "https://thebchbullet.substack.com/",
+            },
+            {
               label: "CashRain",
               href: "https://cashrain.com/bitcoincashpodcast",
             },
@@ -186,10 +190,6 @@ module.exports = {
             {
               label: "Instagram (podcast)",
               href: "https://www.instagram.com/thebchpodcast/",
-            },
-            {
-              label: "Instagram (personal)",
-              href: "https://www.instagram.com/thebitcoincashpodcast/",
             },
             {
               label: "TikTok",
