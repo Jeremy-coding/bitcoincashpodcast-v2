@@ -130,6 +130,10 @@ module.exports = {
               href: "https://rumble.com/user/BitcoinCashPodcast",
             },
             {
+              label: "Brighteon",
+              href: "https://www.brighteon.com/channels/bitcoincashpodcast/home",
+            },
+            {
               label: "Stitcher",
               href: "https://www.stitcher.com/show/the-bitcoin-cash-podcast",
             },
