@@ -19,7 +19,7 @@ import exchangeConcernsFeliciaUrl from "@site/static/img/blog/exchangeConcernsFe
 _Felicia, author's impression._
 <hr />
 
-We're coming to the end of September & things are getting serious for BCH lock-in. So let's get serious. I'm endorsing Fablous CHIP-2025-03 Faster Blocks for Bitcoin Cash ("Felicia") on behalf of myself, The BCH Podcast, [The BCH Bullet](https://thebchbullet.substack.com/) & [BCH BLAZE](https://x.com/bchblaze). I also have spoken to the other decision makers in [BLISS](https://bliss.cash/) & [Selene Wallet](https://selene.cash/), which are also set to make a positive endorsement, but those statements will come separately.
+We're coming to the end of September & things are getting serious for BCH lock-in. So let's get serious. I'm endorsing Fablous CHIP-2025-03 Faster Blocks for Bitcoin Cash ("Felicia") to lock in November 15, 2026 and go-live May 15 2027 on behalf of myself, The BCH Podcast, [The BCH Bullet](https://thebchbullet.substack.com/) & [BCH BLAZE](https://x.com/bchblaze). I also have spoken to the other decision makers in [BLISS](https://bliss.cash/) & [Selene Wallet](https://selene.cash/), which are also set to make a positive endorsement, but those statements will come separately.
 
 - ✅ [CHIP-2025-03 Faster Blocks for Bitcoin Cash](https://gitlab.com/0353F40E/fablous)
 Github commit hash: 7b343d1963360e9d4ea4d3a7a41a7486d1c12c22
